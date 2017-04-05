@@ -1,1 +1,78 @@
 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Nicki's Omelette & Grill</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">   
+    <link rel="stylesheet" href="css/responsive.css">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<!--if we dont add, desktop layout will render on mobile instead, we want mobile layout to render on mobile devices.-->
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+        <h1>Nicki's</h1>
+        <h2>Omelette & Grill</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+          <ul id="main-content">
+            <li>
+              <a href="img/Front%20Restaurant.JPG">
+                <img src="img/Front%20Restaurant.JPG" alt="Our Restaurant">
+              </a>
+              </li>
+          </ul> <!--------- end main content ------------>
+          <ul id="gallery">
+            <li>
+              <a href="img/Alaskan%20Benedict%20full.jpg">
+                <img src="img/Alaskan%20Benedict%20full.jpg" alt=" Alaskan Benedict">
+              </a>
+            </li>
+            <li>
+              <a href="img/biscuit%20debris.jpg">
+                <img src="img/biscuit%20debris.jpg" alt="Biscuit Debris">
+              </a>
+            </li>
+            <li>
+              <a href="img/salmon%20cream%20cheese.jpg">
+                <img src="img/salmon%20cream%20cheese.jpg" alt="Salmon Cream Cheese">
+              </a>
+            </li>
+            <li>
+              <a href="img/smoked%20salmon%20omelette.jpg">
+                <img src="img/smoked%20salmon%20omelette.jpg" alt="Smoked Salmon Omelette">
+              </a>
+            </li>
+             <li>
+              <a href="img/California%20Omelette.jpg">
+                <img src="img/California%20Omelette.jpg" alt="California Omelette">
+                <p>California Omelette</p>
+              </a>
+            </li>
+            <li>
+              <a href="img/country%20fried%20steak%20eggs.jpg">
+                <img src="img/country%20fried%20steak%20eggs.jpg" alt="Country Fried Steak">
+              </a>
+            </li>     
+        </ul>
+        </section>
+      <footer>
+                <img src="img/facebook-wrap.png" alt="Twitter Logo" class="social-icon">
+                <img src="img/twitter-wrap.png" alt="Facebook Logo" class="social-icon">
+        <p>&copy; 2017 Tristine Nguyen.</p>
+      </footer>
+    </div>
+  </body>
+</html>
