@@ -1,12 +1,10 @@
-
-<div class="salads-container">
+<div id="salads-container">
  	<h3>
-	<p>Salads and Soup</p>
+	<p class="group-name">Salads and Soup</p>
 	</h3>
 	<p>All salads are served with romaine lettuce, also accompanied by crackers and your choice of dressing; Greek, blue cheese, ranch, honey mustard, vinaigrette and low fat italian.</p>
-  	
- 	<div class="left"><!---------------- OPEN LEFT ---------------->
-	<!---------------- SALADS AND SOUP ---------------->
+         
+    <div class="left">
   		<h4>
     			<span>GROUPER SALAD</span>
     			<span>$8.25</span> 
@@ -22,7 +20,7 @@
     			<span>$7.95</span> 
        	 	</h4>
     			<p>Turkey, ham, bacon, tomato, black olives, egg cucumber, onion & cheddar</p>	
-   		<h4>
+        <h4>
     			<span>GREEK SALAD</span>
     			<span>$6.49</span> 
         	</h4>
@@ -32,16 +30,16 @@
     			<span>$5.95</span> 
         	</h4>
     			<p>Bowl of soup and our house salad</p>
-	</div><!---------------- CLOSE LEFT ---------------->
-
-	<div class="right><!---------------- OPEN RIGHT ---------------->
+    </div>
+    
+	<div class="right"><!---------------- OPEN RIGHT ---------------->
   		<h4>
     			<span>CRISPY CHICKEN SALAD</span>
     			<span>$7.25</span> 
 		</h4>
     			<p>Crispy chicken, bacon, avocado, onion, tomato and boiled egg</p>
 		<h4>	
-    			<span>CAEASR SALAD</span>
+    			<span>CAESAR SALAD</span>
     			<span>$7.25</span> 
 		</h4>
     			<p>Grilled chicken breast tossed with seasoned croutons, jack cheese in caesar dressing</p>
@@ -56,6 +54,12 @@
 		</h4>
 	</div><!---------------- CLOSE RIGHT ---------------->
 </div><!---------------- CLOSE SALADS CONTAINER ---------------->
+
+      <footer class="main-footer">
+                <img src="img/facebook-wrap.png" alt="Twitter Logo" class="social-icon">
+                <img src="img/twitter-wrap.png" alt="Facebook Logo" class="social-icon">
+        <p>&copy; 2017 Tristine Nguyen.</p>
+      </footer>
 
 
 
@@ -165,7 +169,7 @@
         	</h4>
     			<p>Thin slices of corn beef or turkey sauerkraut, thousand island & Swiss on toasted rye</p>
 	</div><!---------------- CLOSE RIGHT ---------------->
-</div><!---------------- CLOSE SALADS CONTAINER ---------------->
+</div><!---------------- CLOSE burgerS CONTAINER ---------------->
 
 
 
