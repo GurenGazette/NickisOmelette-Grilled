@@ -1,0 +1,222 @@
+/********************************************
+GENERAL
+********************************************/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans' sans-serif;
+  background-color: #fce8d4;
+  
+}
+
+a {
+  text-decoration:none;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+/************************************************
+0 can be percent top, auto is left and right
+auto: take entire width of the page and subtract 940 in the middle, the rest of the space will automatically filled in
+*************************************************/
+.primary-content,
+.main-header,
+.main-footer {
+  text-align: center;
+}
+
+.primary-content {
+    padding-top: 5px;
+    margin: 0;
+    height: 300px;
+    background: #fff url('../img/FrontRestaurant.jpg') no-repeat center;
+    background-size: contain;
+}
+
+.secondary-content {
+  margin: 0;
+  padding: 0;
+  list-style: none;   
+}
+
+.secondary-content {
+    float: left;
+    margin 0;
+    color: #bdc3c7;
+}
+
+.secondary-content img {
+    width: 40%;
+    max-width: 60%;
+    height: auto;
+}
+
+#top {
+  text-align: center;
+  margin: 0;
+}
+
+
+/*********************************************
+em relative unit
+1em = current font size, 16px by default
+1.75 = .75 larger than default
+
+font-weight: bold headlines by default do norma undo it
+**********************************************/
+a {
+  color: #6ab47b;
+}
+
+nav,
+.main-header{
+  background: #fff;
+  border-bottom:3px solid #ffa949; 
+}
+
+#main-content {
+    width 75%;
+    margin: auto;
+    max-width: 960px;
+    list-style: none;
+    background: #ffdab3 url('img/FrontRestaurant.jpg');
+    background-size: contain;
+}
+
+/*********************************************
+NAVIGATION
+**********************************************/
+
+nav ul {
+  list-style: none;
+  margin: 0 50px;
+  padding: 0;
+  top: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.3em;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+nav a, nav a:visited {
+  color: #848e98;
+}
+
+nav a.selected, nav a:hover{
+  color: #69ba60;
+  border-bottom: 5px solid #96031a;
+}
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 10px 0 0;
+}
+
+/*********************************************
+FOOTER
+clear both left and right size so it wont float and goes in the bottom
+**********************************************/
+.main-footer {
+  border-bottom: 5px solid #96031a;
+  font-size: 0.75em;
+  text-align: center;
+  background: #ad343e;
+  clear: both;
+  padding-top 2px;  
+}
+
+.main-footer img {
+    width: 2%;
+    height: auto;
+}
+
+/********************************************
+PAGE: SECONDARY 
+*********************************************/
+
+.secondary-content {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.secondary-content li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+}
+/********************************************
+PAGE: MENU
+*********************************************/
+.main-container {
+    max-width: 70%;
+    margin: 1em 230px 10px;
+    border: 5px solid #ddd;
+    padding: .3em .6em;
+    background-color: #cbdcbb;
+    border-color: #f2af29;
+    color: #757c88;
+}
+
+.group-name
+{
+    font-size: 1.7em;
+    color: #f93142;
+    margin-top: 50px;
+    font-style: italic;
+    font-family: Lobster;
+}
+.left,
+.right {
+    background-color: #fce8d4;
+    width: 50%;
+    height: 800px;
+    margin: 0;
+    padding:10px;
+}
+.left {
+    float:left; 
+}
+.right{
+    float:right; 
+}
+
+h4 {
+    font-size: 1.3em;
+    color: #232528;
+    border-bottom-style: dotted;
+    border-bottom-color: #ff9b9b;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/********************************************
+MENU HEADER
+********************************************/
+#menu-header {
+    background: #fff url('../img/breakfast.jpg') no-repeat center;
+    background-size: cover;
+    height: 400px;
+    padding-top: 170px;
+    text-align: center;
+    font-family: Lobster;
+    color: #fff;
+    font-size: 2em;
+}
