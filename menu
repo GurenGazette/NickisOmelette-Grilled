@@ -1,4 +1,45 @@
-<div id="salads-container">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Nicki's Omelette & Grill</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">   
+    <link rel="stylesheet" href="css/responsive.css">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<!--if we dont add, desktop layout will render on mobile instead, we want mobile layout to render on mobile devices.-->
+  </head>
+  <body>
+    <header id="top" class="main-header">
+<!-- Horizonal navigation list -->
+        <div class="menu-wrap">
+            <nav class="menu">
+                <ul class="clearfix">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="kitchen.html">Our Kitchen</a></li>
+                    <li>
+                        <a href="menu.html" class="selected">Menu<span class="arrow">&#9660;</span></a>
+           <!----------- SUB MENU ----------->   
+                        <ul class="sub-menu">
+                            <li><a href="menu.html">Salads & Soup</a></li>
+                            <li><a href="burgers.html">Burgers & Sanwiches</a></li>
+                            <li><a href="eggs.html">Eggs</a></li>
+                            <li><a href="MeatEgg.html">Meat & Egg Breakfast</a></li>
+                        </ul> 
+                    </li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+      <div id="menu-header">
+        <p>From Our Kitchen to You</p>  
+        <p>Made with fresh ingredients every morning.</p>
+      </div>
+      
+<div class="main-container">
  	<h3>
 	<p class="group-name">Salads and Soup</p>
 	</h3>
@@ -60,465 +101,5 @@
                 <img src="img/twitter-wrap.png" alt="Facebook Logo" class="social-icon">
         <p>&copy; 2017 Tristine Nguyen.</p>
       </footer>
-
-
-
-
-
-<div class="burgers-container">
- 	<h3>
-	<p>Signature Burgers & Sandwiches</p>
-	</h3>
-	<p>All burgers and sandwiches are served with choice of french fries, paster salad, fresh fruit or a cup of soup</p>
-	
-	<div class="left"><!---------------- OPEN LEFT ---------------->
-	<!---------------- SIGNATURE BURGER & SANDWICHES ---------------->
-   		<h4>
-    			<span>HICKORY BURGER</span>
-    			<span>$6.49</span> 
-        	</h4>
-    			<p>With canadian bacon, onion, hickory sauce and cheddar cheese</p>	
-   		<h4>
-    			<span>GREEK BURGER</span>
-    			<span>$6.75</span> 
-        	</h4>
-    			<p>With bacon, mushroom, grilled onion & feta cheese</p>
-   		<h4>
-    			<span>CALIFORNIA BURGER</span>
-    			<span>$6.49</span> 
-        	</h4>
-    			<p>With bacon, sour cream, avocado & jack cheese</p>
-   		<h4>
-    			<span>CACTUS BURGER</span>
-    			<span>$6.49</span> 
-        	</h4>
-    			<p>With bacon, jakapeno and jack cheese & a cip of chili</p>
-   		<h4>
-    			<span>CYCLOPS BURGER</span>
-    			<span>$6.75</span> 
-        	</h4>
-    			<p>With shaved ham, melted cheese topped with one egg your style</p>
-   		<h4>
-    			<span>PATTY MELT</span>
-    			<span>$6.75</span> 
-        	</h4>
-    			<p>Ground beef patty with grilled onion, topped with American and Swiss cheese on toasted rye</p>
-   		<h4>
-    			<span>CHICKEN PHILLY SANDWICH</span>
-    			<span>$6.95</span> 
-        	</h4>
-    			<p>Grilled chicken, onion, mushroom, bell peppers & jack cheese</p>
-   		<h4>
-    			<span>KING CLUB DELUXE</span>
-    			<span>$6.95</span> 
-        	</h4>
-    			<p>Triple decker combination of ham turkey, bacon, lettuce tomato & cheeses</p>
- 
-    		<h4>
-    			<span>SMOKED TURKEY MELT</span>
-    			<span>$6.49</span> 
-        	</h4>
-    			<p>Sliced smoked turkey. bacon, tomatoes, American and Swiss cheese</p>
-  	</div><!---------------- CLOSE LEFT ---------------->
-
-	<div class="right><!---------------- OPEN RIGHT ---------------->
-		<h4>
-    			<span>ALL AMERICAN BURGER</span>
-    			<span>$5.99</span> 
-        	</h4>
-    			<p>Seasoned and grilled to perfection</p>
-   		<h4>
-    			<span>WESTERN BURGER</span>
-    			<span>$6.49</span> 
-        	</h4>	
-    			<p>With bacon, cheese, onion rings & barbeque sauce</p>
-   		<h4>
-    			<span>CHEESE PLEASER BURGER</span>
-    			<span>$6.49</span> 
-        	</h4>
-    			<p>With Swiss, jack, American cheese & bacon</p>
-   		<h4>
-    			<span>MUSHROOM SWISS BURGER</span>
-    			<span>$6.49</span> 
-        	</h4>
-    			<p>Topped with grilled mushrooms and Swiss cheese</p>
-   		<h4>
-    			<span>FRENCH DIP</span>
-    			<span>$6.95</span> 
-        	</h4>
-    			<p>Piled high shaved roast beed topped with Swiss cheese, served with au jus</p>
- 
-    		<h4>
-    			<span>CALIFORNIA CLUB</span>
-    			<span>$6.95</span> 
-        	</h4>
-    			<p>Shaved smoked turkey, crisp bacon, jack cheese and avocados on ciabatta bun</p>
-   		<h4>
-    			<span>grouper sandwich</span>
-    			<span>$7.95</span> 
-        	</h4>
-    			<p>Blackened, grilled on fried on kaiser roll, served with tartar sauce</p>
-   		<h4>
-    			<span>CHICKEN CLUB</span>
-    			<span>$6.49</span> 
-        	</h4>
-    			<p>Grilled chicken breast, crispy bacon and American cheese on butter croissant</p>
-   		<h4>
-    			<span>REBEN SANDWICH</span>
-    			<span>$6.75</span> 
-        	</h4>
-    			<p>Thin slices of corn beef or turkey sauerkraut, thousand island & Swiss on toasted rye</p>
-	</div><!---------------- CLOSE RIGHT ---------------->
-</div><!---------------- CLOSE burgerS CONTAINER ---------------->
-
-
-
-
-
-<div class="egg-container">
- 	<h3>
-	<p>Egg Benedict</p>
-	</h3>
-	<p>All benedicts are served with hollandaise sauce on and english muffin. Also your choice of hashbrowns, homefried, grits, fresh fruit, sliced tomato or cottage cheese</p>
-
-	<!---------------- EGG BENEDICT ---------------->
-   		<h4>
-    			<span>vEGETABLE bENEDICY</span>
-    			<span>$7.50</span> 
-        	</h4>
-    			<p>With sliced tomato, brocoli, spinach & mushroom</p>	
-   		<h4>
-    			<span>NICKI'S BENEDICT</span>
-    			<span>$7.75</span> 
-        	</h4>
-    			<p>With shaved turkey, avocado & tomato</p>
-   		<h4>
-    			<span>CALIFORNIA BENEDICT</span>
-    			<span>$7.95</span> 
-        	</h4>
-    			<p>With Canadian bacon, avocado, sour cream & jack cheese</p>
-   		<h4>
-    			<span>ALASKAN BENEDICT</span>
-    			<span>$8.50</span> 
-        	</h4>
-    			<p>Smoked salmon, sliced onion, tomato & capers</p>
-   		<h4>
-    			<span>CLASSIC BENEDICT</span>
-    			<span>$7.50</span> 
-        	</h4>
-    			<p>With sliced Canadian bacon</p>
-</div><!---------------- EGG CONTAINER ---------------->
-
-
-
-
-
-<div class="meateggbreakfasts-container">
- 	<h3>
-	<p>Meat & Egg Breakfasts</p>
-	</h3>
-	<p>All breakfasts are served with two choices. One hashbrowns, home fries, grits, fresh fruit, or sliced tomato. And one of homemade bread, English muffin, toast or biscuit & gravy. Substitute bagel, croissant or pancake $0.75. Two eggs any style $4.00</p>
-
-	<!---------------- MEAT AND EGG BREAKFASTS ---------------->
-   		<h4>
-    			<span>RIBE EYE STEAK (8OZ)</span>
-    			<span>$9.95</span> 
-        	</h4>
-   		<h4>
-    			<span>COUNTRY FRIED STEAK</span>
-    			<span>$6.49</span> 
-        	</h4>
-    			<p>Topped with gravy</p>
-   		<h4>
-    			<span>TURKEY SAUSAGE PATTY</span>
-    			<span>$6.25</span> 
-        	</h4>
-   		<h4>
-    			<span>SAUSAGE PATTY OR LINK, OR BACON</span>
-    			<span>$5.95</span> 
-        	</h4>
-   		<h4>
-    			<span>BREADED PORK CHOPS (8OZ)</span>
-    			<span>$6.95</span> 
-        	</h4>
-		<h4>
-    			<span>HAM STEAK (8OZ)</span>
-    			<span>$6.75</span> 
-        	</h4>
-   		<h4>
-    			<span>CORN BEEF HASH</span>
-    			<span>$6.75</span> 
-        	</h4>
-   		<h4>
-    			<span>GROUND CHOPPED SIRLON (8OZ)</span>
-    			<span>$6.25</span> 
-        	</h4>
-</div><!---------------- MEAT EGG BREAKFATS CONTAINER ---------------->
-
-
-
-
-
-<div class="signaturebreakfast-container">
- 	<h3>
-	<p>Signature Breakfast</p>
-	</h3>
-	
-	<div class="left"><!---------------- OPEN LEFT ---------------->
-	<!---------------- SIGNATURE BURGER & SANDWICHES ---------------->
-   		<h4>
-    			<span>NICKI'S BREAKFAST</span>
-    			<span>$6.95</span> 
-        	</h4>
-    			<p>Crispy hashbrowns topped with grilled onions, bell pepper and sausage served with two eggs any style & homemade white or cinnamon raisin toast</p>	
-   		<h4>
-    			<span>BISCUIT DEBRIS</span>
-    			<span>$7.25</span> 
-        	</h4>
-    			<p>Two buttermilk biscuits covered with country gravy. Grilled sausage, ham, bacon & two eggs any style, topped with melted cheddar cheese served with home fries</p>
-   		<h4>
-    			<span>SUNRISE SCAMBLED</span>
-    			<span>$6.95</span> 
-        	</h4>
-    			<p>Three eggs scamvled with tomato, sausage and bacon topped with cheddar and green onion, served with home fries & homemade bread</p>
-   		<h4>
-    			<span>BREAKFAST BURRITO</span>
-    			<span>$6.95</span> 
-        	</h4>
-    			<p>Two eggs scambed with sausage, onion, bell pepper & tomato wrapped in a flour tortilla topped with picante sauce & cheddar cheese, served with home fries & a side of jalapeno</p>
-   		<h4>
-    			<span>HUEVOS RANCHEROS</span>
-    			<span>$6.95</span> 
-        	</h4>
-    			<p>Crispy home fries with melted jack and cheddar cheese topped with two eggs any style and fire roasted ranchero sauce on two corn flour tortillas. Served with sour cream</p>
-   		
-  	</div><!---------------- CLOSE LEFT ---------------->
-
-	<div class="right><!---------------- OPEN RIGHT ---------------->
-		<h4>
-    			<span>SMOKED SALMON BREAKFAST</span>
-    			<span>$8.49</span> 
-        	</h4>
-    			<p>Two fried eggs with smoked salmon, sliced tomato, capers, onion and cream cheese served with fresh fruit and a toasted bagel</p>
-   		<h4>
-    			<span>COUNTRY BREAKFAST</span>
-    			<span>$6.95</span> 
-        	</h4>	
-    			<p>Open faced omelette with homefries, grilled bell pepper, onions & sausage topped with country gravy & cheddar cheese served with buttermilk biscuits</p>
-   		<h4>
-    			<span>BREAKFAST SANDWICH</span>
-    			<span>$6.49</span> 
-        	</h4>
-    			<p>Choice of turkey, sausage, ham or bacon with slcied tomato, scramble eggs and American cheese on a croissant, bagel or English muffin, served with home fries</p>
-   		<h4>
-    			<span>VEGGIE SCRAMBLED</span>
-    			<span>$6.95</span> 
-        	</h4>
-    			<p>Scrambled eggs with spinach, broccoli, bell pepper, mushroom & tomato topped with cheddar cheese served with fresh fruit & an English muffin</p>
-   	
-	</div><!---------------- CLOSE RIGHT ---------------->
-</div><!---------------- CLOSE SALADS CONTAINER ---------------->
-
-
-
-
-<div class="signatureomelette-container">
- 	<h3>
-	<p>Signature Omelette</p>
-	</h3>
-	<p>All omelettes are served with your choice of hash browns, home fries, grits, fresh fruit, or sliced tomato. Also your choice of homemade bread. English muffin, toast or biscuits & gravy. Subtitute bagel,croissant or pancake $0.75</p>
-
-	
-	<div class="left"><!---------------- OPEN LEFT ---------------->
-	<!---------------- Signature Omelette ---------------->
-   		<h4>
-    			<span>CALIFORNIA</span>
-    			<span>$6.95</span> 
-        	</h4>
-    			<p>Bacon, avocado, sour cream and monterey jack cheese</p>	
-   		<h4>
-    			<span>HASH & JACK</span>
-    			<span>$6.49</span> 
-        	</h4>
-    			<p>Country corned beef hash and monterey jack cheese</p>
-   		<h4>
-    			<span>VEGETABLE</span>
-    			<span>$7.49</span> 
-        	</h4>
-    			<p>Spinach, broccoli, bell pepper, tomato and mushroom</p>
-   		<h4>
-    			<span>COBB</span>
-    			<span>$7.49</span> 
-        	</h4>
-    			<p>Turkey, bacon, avocado, tomato and monterey jack cheese</p>
-   		<h4>
-    			<span>WISCONSIN</span>
-    			<span>$7.49</span> 
-        	</h4>
-    			<p>Cheddar, monterey jack, swiss, american, and cream cheese</p>
-	   		<h4>
-    			<span>HAWAIAN</span>
-    			<span>$6.95</span> 
-        	</h4>
-    			<p>Ham, bell pepper, pineapple and monterey jack cheese</p>
-   		<h4>
-    			<span>POPEYE'S REVENGE</span>
-    			<span>$6.95</span> 
-        	</h4>
-    			<p>Bacon, spinach, mushroom and monterey jack cheese</p>			
-	   		<h4>
-    			<span>CLUB DELUXE</span>
-    			<span>$7.49</span> 
-        	</h4>
-    			<p>Ham, bacon, turkey, tomato and american cheese</p>
-	   		<h4>
-    			<span>GREEK</span>
-    			<span>$7.49</span> 
-        	</h4>
-    			<p>Bacon, spinach, black olive, garlic and feta cheese</p>
-   		
-  	</div><!---------------- CLOSE LEFT ---------------->
-		<div class="right><!---------------- OPEN RIGHT ---------------->
-   		<h4>
-    			<span>SOUTH OF THE BORDER</span>
-    			<span>$7.95</span> 
-        	</h4>
-    			<p>Green chili, onion, potato, jack cheese and ranchero sauce</p>	
-   		<h4>
-    			<span>MEAT LOVER</span>
-    			<span>$7.95</span> 
-        	</h4>
-    			<p>Sausage, bacon, ham, ground beef pepperoni and cheddar cheese</p>
-   		<h4>
-    			<span>HERTBURN</span>
-    			<span>$6.45</span> 
-        	</h4>
-    			<p>Cheddar cheese, onion topped with homemade chili bean sauce</p>
-   		<h4>
-    			<span>WESTERN</span>
-    			<span>$6.95</span> 
-        	</h4>
-    			<p>Ham, bell pepper, onion and cheddar cheese</p>
-   		<h4>
-    			<span>SANTA FE</span>
-    			<span>$7.49</span> 
-        	</h4>
-    			<p>Chicken, tomato, green onion, avocado and jack cheese</p>
-	   		<h4>
-    			<span>PARADISE</span>
-    			<span>$7.49</span> 
-        	</h4>
-    			<p>Bacon, ham, tomato, monterey jack and cheddar cheese</p>
-   		<h4>
-    			<span>CATALINA</span>
-    			<span>$7.49</span> 
-        	</h4>
-    			<p>Bacon, spinach, tomato, avocado, monterey jack cheese</p>			
-	   		<h4>
-    			<span>ALASKAN</span>
-    			<span>$8.25</span> 
-        	</h4>
-    			<p>Smoked salmon, onion, capers and cream cheese</p>
-	   		<h4>
-    			<span>FARMER</span>
-    			<span>$6.95</span> 
-        	</h4>
-    			<p>Chicken, tomato, onion and melted cheddar cheese</p>
-   	
-	</div><!---------------- CLOSE RIGHT ---------------->	
-</div><!---------------- SIGNATURE OMELETTE CONTAINER ---------------->
-
-
-
-
-<div class="griddle-container">
- 	<h3>
-	<p>From the Griddle</p>
-	</h3>
-	<p>All pancakes, waffles and french toasts are served with butter and syrup. Top them with fruit topping and whipped cream for only $0.75</p>
-
-	
-	<div class="left"><!---------------- OPEN LEFT ---------------->
-	<!---------------- Signature Omelette ---------------->
-   		<h4>
-    			<span>SHOT STACK</span>
-    			<span>$3.95</span> 
-        	</h4>
-    			<p>Two old fashion buttermilk pancakes</p>	
-   		<h4>
-    			<span>SWEET POTATO PANCAKES</span>
-    			<span>$4.25</span> 
-        	</h4>
-    			<p>Naturally sweet and full flavor, sprinkle with powder sugar</p>
-   		<h4>
-    			<span>PANCAKE PLATTER</span>
-    			<span>$5.95</span> 
-        	</h4>
-    			<p>2 pancakes, 1 egg & hoise of bacon or sausage</p>
-   		<h4>
-    			<span>FRENCH TOAST PLATTER</span>
-    			<span>$5.95</span> 
-        	</h4>
-    			<p>2 slices of french toast, 1 egg & choice of bacon or sausage</p>
-   		<h4>
-    			<span>WAFFLE PLATTER</span>
-    			<span>$6.25</span> 
-        	</h4>
-    			<p>Belgian waffle, 1 egg & choice of bacon or sausage</p>
-	   		<h4>
-    			<span>CHOCOLATE CHIPS PANCAKES</span>
-    			<span>$5.95</span> 
-        	</h4>
-    			<p>2 pancakes field & topped with chocolate chips</p>
-  	</div><!---------------- CLOSE LEFT ---------------->
-		<div class="right><!---------------- OPEN RIGHT ---------------->
-   		<h4>
-    			<span>STACK</span>
-    			<span>$4.95</span> 
-        	</h4>
-    			<p>3 old fashion buttermilk pancakes</p>	
-   		<h4>
-    			<span>PIGS IN A BLANKET</span>
-    			<span>$5.75</span> 
-        	</h4>
-    			<p>3 sausages linkes cuddled individually in 3 pancakes</p>
-   		<h4>
-    			<span>FRENCH TOAST</span>
-    			<span>$4.95</span> 
-        	</h4>
-    			<p>3 slices og homemade bread dipped in our famous french toast batter</p>
-   		<h4>
-    			<span>BELGIAN WAFFLE</span>
-    			<span>$4.95</span> 
-        	</h4>
-    			<p>Light & crispy waffle topped with pwder sugar</p>
-   		<h4>
-    			<span>BLUEBERRY PANCAKES</span>
-    			<span>$5.95</span> 
-        	</h4>
-    			<p>2 pancakes filled & topped with blueberries & whipped cream</p>
-	   		<h4>
-    			<span>BANANA WALNUT PANCAKES</span>
-    			<span>$6.25</span> 
-        	</h4>
-    			<p>2 pancakes filled & topped with bananas & walnuts</p>
-   	
-	</div><!---------------- CLOSE RIGHT ---------------->	
-</div><!---------------- SIGNATURE OMELETTE CONTAINER ---------------->
-
-
-
-
-<div class="selfcreate-container">
- 	<h3>
-	<p>Create your Own Omelette</p>
-	</h3>
-	<p>Enjoy a combination of your favorite ingredients. Vegetables: Asparagus, avocado, bell pepper, broccoli, green chili, green onion, jalapeno, mushrooms, olives, onion, pineapple, spinach, sun dried tomato, tomato. Cheese: cheddar, american, feta, swiss.</p>
-	
-	<div class="left"><!---------------- OPEN LEFT ---------------->
-	<!---------------- Signature Omelette ---------------->
-		<h4>
-					<span>CREATE YOUR OWN OMELETTE</span>
-					<span>$5.49</span>
-					</h4>
-  	</div><!---------------- CLOSE LEFT ---------------->
+  </body>
+</html>
