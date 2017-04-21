@@ -1,78 +1,87 @@
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Nicki's Omelette & Grill</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/main.css">   
-    <link rel="stylesheet" href="css/responsive.css">    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<!--if we dont add, desktop layout will render on mobile instead, we want mobile layout to render on mobile devices.-->
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">    <link rel="stylesheet" href="css/main.css">   
   </head>
   <body>
-    <header>
-      <a href="index.html" id="logo">
-        <h1>Nicki's</h1>
-        <h2>Omelette & Grill</h2>
-      </a>
+    <header id="top" class="main-header">
       <nav>
         <ul>
-          <li><a href="index.html" class="selected">Home</a></li>
-          <li><a href="menu.html">Menu</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><b><a href="index.html" class="selected">Home</a></b></li>
+          <li><b><a href="kitchen.html">Our Kitchen</a></b></li>
+          
+          <!---------------------DROPDOWN MENU----------------------->
+          <li class="dropdown selected">
+              <a href="javascript:void(0)"><b>Menu</b></a>
+              <div class="dropdown-content">
+                <a href="menu.html">Salads & Soups</a>
+                <a href="burgers.html">Burgers & Sandwiches</a>
+                <a href="eggs.html"> Eggs</a>
+                <a href="griddle.html">From The Griddle</a>
+                <a href="SignatureOmelette.html">Signature Omelette</a>
+              </div>
+            </li>
+            <!---------------------END OF DROPDOWN MENU----------------------->
+          
+            <li><b><a href="reviews.html">Reviews</a></b></li>
+            <li><b><a href="contact.html">Contact</a></b></li>
         </ul>
-      </nav>
+    </nav>
+      
     </header>
-    <div id="wrapper">
-      <section>
-          <ul id="main-content">
-            <li>
-              <a href="img/Front%20Restaurant.JPG">
-                <img src="img/Front%20Restaurant.JPG" alt="Our Restaurant">
-              </a>
-              </li>
-          </ul> <!--------- end main content ------------>
-          <ul id="gallery">
-            <li>
-              <a href="img/Alaskan%20Benedict%20full.jpg">
-                <img src="img/Alaskan%20Benedict%20full.jpg" alt=" Alaskan Benedict">
-              </a>
-            </li>
-            <li>
-              <a href="img/biscuit%20debris.jpg">
-                <img src="img/biscuit%20debris.jpg" alt="Biscuit Debris">
-              </a>
-            </li>
-            <li>
-              <a href="img/salmon%20cream%20cheese.jpg">
-                <img src="img/salmon%20cream%20cheese.jpg" alt="Salmon Cream Cheese">
-              </a>
-            </li>
-            <li>
-              <a href="img/smoked%20salmon%20omelette.jpg">
-                <img src="img/smoked%20salmon%20omelette.jpg" alt="Smoked Salmon Omelette">
-              </a>
-            </li>
-             <li>
-              <a href="img/California%20Omelette.jpg">
-                <img src="img/California%20Omelette.jpg" alt="California Omelette">
-                <p>California Omelette</p>
-              </a>
-            </li>
-            <li>
-              <a href="img/country%20fried%20steak%20eggs.jpg">
-                <img src="img/country%20fried%20steak%20eggs.jpg" alt="Country Fried Steak">
-              </a>
-            </li>     
-        </ul>
-        </section>
-      <footer>
+        <div class="primary-content">
+            <div class="hours">
+                <p><u>HOURS</u></p>
+                <P>Monday - Sunday</P>
+                <p>6:00AM - 2:00PM</p>
+                <p><u>Address:</u> 6805 W Hillsborough Ave</p>
+                <p>Tampa, FL 33636</p>
+                <p><u>Phone:</u> (813)884-3447</p>
+            </div> 
+            <div><img class="location" src="/img/FrontRestaurant.JPG" atl="location"></div>
+        </div> <!--------- end primary content ------------> 
+        
+      
+      <div class="secondary-content">
+          <b><h3 class="intro">GALLERY</h3></b>
+                <div class="intro-body">
+                <p> <b>"</b>This place is awesome!! Friendly, quick service, reasonable prices, big portions, and yummy food!<b>"</b> </p>
+                <p class="source">Toni L.-Yelp</p>
+                  
+                <p> <b>"</b>Very glad I decided to eat at Nicki's today, and will definitely be coming back next time I'm in Tampa for more breakfast for lunch.<b>"</b> </p>
+                <p class="source">David Philip Norris - Google Reviews</p>
+                </div>
+                     <!------ FOOD PICTURES -------->
+                    <div class="top">
+                        <img class="topfood-left" src="img/AlaskanBenedictfull.jpg" alt="Alaskan Benedict">   
+                        <img class="topfood-center" src="img/cobbsalad.jpg" alt="California Omelette">   
+                        <img class="topfood-right" src="img/salmon%20cream%20cheese.jpg" alt="Salmon Cream Cheese">  
+                    </div>
+                    <div class="bottom">
+                        <img class="bottomfood-left" src="img/biscuit%20debris.jpg" alt="Biscuit Debris">   
+                        <img class="bottomfood-center" src="img/country%20fried%20steak%20eggs.jpg" alt="Country Fried Steak">   
+                        <img class="bottomfood-right" src="img/smoked%20salmon%20omelette.jpg" alt="Smoked Salmon Omelette"> 
+                    </div>
+      
+                <!------ END OF FOOD PICTURES -------->
+            <b><h3 class="intro">OUR TEAM</h3></b>
+                <div class="intro-body">
+                    <p><b>"</b>This place is awesome!! Friendly, quick service, reasonable prices, big portions, and yummy food!<b>"</b> </p>
+                        <p class="source">Toni L.-Yelp</p>
+                            <div class="members"></div>
+                            <img class="team-left" src="img/staff.jpg" alt="Nicki's Staff">   
+                            <img class="team-center" src="img/nickisteam.JPG" alt="Nicki's Staff"> 
+                            <img class="team-right" src="img/nickisStaff.jpg" alt="Nicki's Staff">
+                            </div>
+      </div><!------------------ END OF SECONDARY CONTENT ----------------->
+
+      <footer class="main-footer">
                 <img src="img/facebook-wrap.png" alt="Twitter Logo" class="social-icon">
                 <img src="img/twitter-wrap.png" alt="Facebook Logo" class="social-icon">
-        <p>&copy; 2017 Tristine Nguyen.</p>
+        <p>&copy; 2017 by Tristine Nguyen.</p>
       </footer>
-    </div>
   </body>
 </html>
