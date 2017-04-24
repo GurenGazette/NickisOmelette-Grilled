@@ -5,6 +5,7 @@
     <title>Nicki's Omelette & Grill</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">    <link rel="stylesheet" href="css/main.css">   
+      
   </head>
   <body>
     <header id="top" class="main-header">
@@ -22,19 +23,24 @@
                 <a href="eggs.html"> Eggs</a>
                 <a href="griddle.html">From The Griddle</a>
                 <a href="SignatureOmelette.html">Signature Omelette</a>
+                <a href="Customized.html">Customized Omelette</a>
+                <a href="SignatureBreakfast.html">Signature Breakfasts</a>
+                <a href="MeatEgg.html">Meat & Egg Breakfasts</a>
+                <a href="Beverages.html">Beverages</a>
+                
               </div>
             </li>
             <!---------------------END OF DROPDOWN MENU----------------------->
-          
-            <li><b><a href="reviews.html">Reviews</a></b></li>
-            <li><b><a href="contact.html">Contact</a></b></li>
+                      <li><b><a href="contact.html">Contact</a></b></li>
         </ul>
     </nav>
       
     </header>
+      <div id="wrapper">
         <div class="primary-content">
             <div class="hours">
-                <p><u>HOURS</u></p>
+                <br>
+                <h2><p><u>HOURS</u></p></h2>
                 <P>Monday - Sunday</P>
                 <p>6:00AM - 2:00PM</p>
                 <p><u>Address:</u> 6805 W Hillsborough Ave</p>
@@ -46,15 +52,26 @@
         
       
       <div class="secondary-content">
-          <b><h3 class="intro">GALLERY</h3></b>
+          <b><h3>Our Customers</h3></b>
                 <div class="intro-body">
-                <p> <b>"</b>This place is awesome!! Friendly, quick service, reasonable prices, big portions, and yummy food!<b>"</b> </p>
-                <p class="source">Toni L.-Yelp</p>
-                  
-                <p> <b>"</b>Very glad I decided to eat at Nicki's today, and will definitely be coming back next time I'm in Tampa for more breakfast for lunch.<b>"</b> </p>
-                <p class="source">David Philip Norris - Google Reviews</p>
+                    <p> <b>"</b>This place is awesome!! Friendly, quick service, reasonable prices, big portions, and yummy food!<b>"</b> </p>
+                    <p class="source">Toni L. - Yelp</p>
+                    <br>
+                    <p> <b>"</b>Very glad I decided to eat at Nicki's today, and will definitely be coming back next time I'm in Tampa for more breakfast for lunch.<b>"</b> </p>
+                    <p class="source">David Philip Norris - Google Reviews</p>
+                    <br>
+                    <p> <b>"</b>Food is amazing and portions are generous. Service is fast nd friendly. We became regulars after the first visit. Know most of the staff by name already!<b>"</b> </p>
+                    <p class="source">Wunhunglow - tripadvisor</p>
                 </div>
+      </div><!------------------ END OF SECONDARY CONTENT ----------------->
+      
+      <div class="third-content">
                      <!------ FOOD PICTURES -------->
+          <div class="food-container">
+                    <div class="popular-items">
+                        <h2>All items are made to order</h2>
+                        <h2>Try out our most popular dishes below!</h2>
+                    </div>
                     <div class="top">
                         <img class="topfood-left" src="img/AlaskanBenedictfull.jpg" alt="Alaskan Benedict">   
                         <img class="topfood-center" src="img/cobbsalad.jpg" alt="California Omelette">   
@@ -65,23 +82,25 @@
                         <img class="bottomfood-center" src="img/country%20fried%20steak%20eggs.jpg" alt="Country Fried Steak">   
                         <img class="bottomfood-right" src="img/smoked%20salmon%20omelette.jpg" alt="Smoked Salmon Omelette"> 
                     </div>
+          </div>
+      </div>
       
+      <div class="fourth-content">
                 <!------ END OF FOOD PICTURES -------->
-            <b><h3 class="intro">OUR TEAM</h3></b>
+            <b><h3>Our Team</h3></b>
                 <div class="intro-body">
                     <p><b>"</b>This place is awesome!! Friendly, quick service, reasonable prices, big portions, and yummy food!<b>"</b> </p>
                         <p class="source">Toni L.-Yelp</p>
-                            <div class="members"></div>
                             <img class="team-left" src="img/staff.jpg" alt="Nicki's Staff">   
                             <img class="team-center" src="img/nickisteam.JPG" alt="Nicki's Staff"> 
                             <img class="team-right" src="img/nickisStaff.jpg" alt="Nicki's Staff">
                             </div>
-      </div><!------------------ END OF SECONDARY CONTENT ----------------->
-
-      <footer class="main-footer">
+      </div>
+      <footer>
                 <img src="img/facebook-wrap.png" alt="Twitter Logo" class="social-icon">
                 <img src="img/twitter-wrap.png" alt="Facebook Logo" class="social-icon">
-        <p>&copy; 2017 by Tristine Nguyen.</p>
+                <p>&copy; 2017 by Tristine Nguyen.</p>
       </footer>
+      </div>
   </body>
 </html>
