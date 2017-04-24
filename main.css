@@ -19,6 +19,7 @@ img {
   max-width: 100%;
 }
 
+
 /************************************************
 HOME PAGE
 *************************************************/
@@ -46,9 +47,11 @@ HOME PAGE
     float: left;
     width: 30%;
     margin-bottom: 10px;
-    padding: 50px 20px 200px;
+    padding: 30px;
     color: white;
 }
+
+
 
 img {
     float: center;
@@ -57,25 +60,56 @@ img {
     height: auto;    
 }
 
+.secondary-content,
+.fourth-content {
+    display: inline-block;
+}
 
-h3 {
-    font-size: 2em;
+
+.secondary-content,
+.fourth-content {
+    margin: 10%;
+    margin-top: 60px;
 }
 
 .secondary-content {
-    display: inline-block;
-    margin: 10px 120px;
-    margin-top: 20px;
-    margin-bottom: 200px;
-    border: 5px solid #fce8d4; 
-    max-width: 980px;
+    max-width: 80%;
+   
 }
 
-.intro {
+.third-content {
+    display: inline-block;
+    width: 100%;
+    background: #f87060;
+}
+
+.fourth-comtent {
+    max-width: 100%;
+   
+}
+
+.popular-items,
+.topfood-left,
+.topfood-center,
+.topfood-right {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    line-height: .4;
+    font-family: Lobster;
+}
+
+
+h3 {
     clear: both;
-    font-size: 1.25em;
+    text-align: center;
+    font-size: 2em;
     line-height: 1.6;
-    color: greenyellow;
+    color: #52ce39;
 }
 
 .intro,
@@ -104,10 +138,24 @@ h3 {
     border-radius: 10px;  
 }
 
-h4 {
-    color: lightgreen;
-    text-align: center;
-    font-size: 1em;
+.bottomfood-left,
+.bottomfood-center,
+.bottomfood-right,
+.team-left,
+.team-center,
+.team-right {
+    margin-bottom: 50px;
+}
+
+.team-left,
+.team-center,
+.team-right {
+    height:  230px;
+    width: 300px;
+}
+
+.food-container {
+    margin: 2% 14%;
 }
 
 /*********************************************
@@ -137,7 +185,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 nav a,
@@ -191,19 +239,29 @@ li.dropdown {
 FOOTER
 clear both left and right size so it wont float and goes in the bottom
 **********************************************/
-.main-footer {
-  border-bottom: 5px solid #96031a;
-  font-size: 0.75em;
-  text-align: center;
-  background: #ad343e;
-  clear: both;
-  padding-top 2px;  
+footer {
+    margin-top: 200px;
+    margin-bottom: 0;
+    font-size: 0.75em;
+    text-align: center;
+    background: #ad343e;
+    clear: both;
+    padding-bottom: 5px;
 }
 
-.main-footer img {
+footer img {
     width: 2%;
-    height: auto;
-    align-content: center;
+}
+
+
+/************************************************
+PAGE: OUR KITCHEN
+*************************************************/
+section {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+    
 }
 
 /********************************************
@@ -229,10 +287,11 @@ PAGE: MENU
 .left,
 .right {
     background-color: #fce8d4;
-    width: 430px;
+    width: 480px;
     height: 1500;
     margin: auto;
     padding: 10px 20px 10px 20px;
+    margin-bottom: 100px;
 }
 
 .left {
@@ -247,13 +306,18 @@ h4 {
     color: #232528;
     border-bottom-style: dotted;
     border-bottom-color: #ff9b9b;
+    padding-bottom: 26px;
+}
+
+.options {
+    color: #ff9b9b;
 }
 
 .name-left {
     float: left;
 }
 
-price-right {
+.price-right {
     float: right;
     padding-right: 1px;
 }
@@ -261,7 +325,7 @@ price-right {
 .item {
     margin: auto;
     width: 400px;
-    height: 110px;
+    height: 140px;
 }
 
 p {
@@ -281,5 +345,12 @@ MENU HEADER
     font-family: Lobster;
     color: #fce8d4;
     font-size: 2em;
+}
+
+/********************************************
+PAGE: CONTACT
+********************************************/
+.input {
+    margin: 50px; 
 }
 
